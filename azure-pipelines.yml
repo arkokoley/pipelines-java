@@ -8,5 +8,5 @@ trigger:
 
 pool:
   vmImage: 'ubuntu-latest'
-
+steps:
 - bash: echo $(Build.RequestedForEmail)
